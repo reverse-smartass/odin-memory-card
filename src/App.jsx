@@ -129,7 +129,7 @@ function App() {
                 }
               }}
             >
-              <h2>{item.itemname}</h2>
+              <h2>{item.itemname.charAt(0).toUpperCase() + item.itemname.slice(1)}</h2>
               <img src={item.image} alt={item.itemname} />
               {cheating && <p>Number of Clicks: {item.nbClicks}</p>}
             </div>
