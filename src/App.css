@@ -49,6 +49,13 @@
 
 }
 
+@media (max-width: 479px) {
+  .pokemoncards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .pokemon{
   width: 200px;
 }
