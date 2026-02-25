@@ -49,8 +49,14 @@
 
 }
 
+.scores {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 479px) {
-  .pokemoncards {
+  .pokemoncards, .scores {
     flex-direction: column;
     align-items: center;
   }
