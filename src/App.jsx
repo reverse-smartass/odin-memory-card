@@ -86,7 +86,8 @@ function App() {
       {error && <p>Error: {error}</p>}
       {!loading && (
         <div>
-          <p className="highscore">Highest Clicks: {highestClicks}</p>
+          <p className="score">Current Score: {totalClicks}</p>
+          <p className="highscore">Highest Score: {highestClicks}</p>
           <div className="cheat">
             <label>
               <input
